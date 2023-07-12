@@ -1,0 +1,1137 @@
+12.07.2023 08:44:00.587 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 764 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 08:44:00.593 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 08:44:01.723 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 08:44:01.819 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interfaces.
+12.07.2023 08:44:03.226 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 08:44:03.248 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 08:44:03.250 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 08:44:03.445 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 08:44:03.447 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2770 ms
+12.07.2023 08:44:03.748 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 08:44:03.845 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 08:44:03.849 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 08:44:04.046 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 08:44:04.300 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 08:44:04.327 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 08:44:04.937 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7645b7d
+12.07.2023 08:44:04.942 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 08:44:05.097 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 08:44:05.472 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 08:44:06.275 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 08:44:06.373 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 08:44:07.469 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 08:44:07.565 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12.07.2023 08:44:08.555 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12.07.2023 08:44:08.578 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 08:44:08.579 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 08:44:08.584 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 08:44:08.584 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 08:44:08.621 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 08:44:08.621 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 08:44:08.626 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 08:44:08.626 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 08:44:08.634 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 08:44:08.634 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 08:44:08.636 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Started LatifFirstSpringBotApplication in 8.715 seconds (process running for 10.101)
+12.07.2023 08:44:25.476 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - user saved User(chatId=5100940292, forename=Λατίφους, surname=Саит, userName=Sailatif, registeredAT=2023-07-12T08:44:25.376070200)
+12.07.2023 08:44:25.561 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - Replied to user: Λατίφους
+12.07.2023 08:45:18.488 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 08:45:18.495 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 08:45:18.525 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 09:10:32.060 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 15316 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 09:10:32.063 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 09:10:33.099 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 09:10:33.186 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+12.07.2023 09:10:34.453 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 09:10:34.475 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 09:10:34.475 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 09:10:34.680 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 09:10:34.680 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2533 ms
+12.07.2023 09:10:35.032 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 09:10:35.181 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 09:10:35.186 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 09:10:35.478 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 09:10:35.743 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 09:10:35.779 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 09:10:36.758 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19647566
+12.07.2023 09:10:36.762 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 09:10:36.911 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 09:10:37.324 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 09:10:38.622 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 09:10:38.752 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 09:10:40.329 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 09:10:40.435 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12.07.2023 09:10:41.028 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12.07.2023 09:10:41.051 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 09:10:41.052 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 09:10:41.055 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 09:10:41.055 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 09:10:41.195 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 09:10:41.196 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 09:10:41.202 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 09:10:41.203 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 09:10:41.211 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 09:10:41.212 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 09:10:41.220 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Started LatifFirstSpringBotApplication in 9.837 seconds (process running for 11.089)
+12.07.2023 09:10:56.022 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - user saved User(chatId=5100940292, forename=Λατίφους, surname=Саит, userName=Sailatif, registeredAT=2023-07-12T09:10:55.841707)
+12.07.2023 09:10:56.247 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - Replied to user: Λατίφους
+12.07.2023 09:11:28.974 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 09:11:28.981 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 09:11:29.002 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 09:13:26.726 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 18276 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 09:13:26.729 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 09:13:27.723 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 09:13:27.830 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interfaces.
+12.07.2023 09:13:28.986 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 09:13:28.998 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 09:13:28.998 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 09:13:29.146 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 09:13:29.146 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2352 ms
+12.07.2023 09:13:29.429 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 09:13:29.559 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 09:13:29.567 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 09:13:29.787 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 09:13:29.993 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 09:13:30.016 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 09:13:30.636 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ac417a2
+12.07.2023 09:13:30.638 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 09:13:30.695 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 09:13:31.046 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 09:13:32.035 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 09:13:32.195 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 09:13:33.554 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 09:13:33.637 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12.07.2023 09:13:34.362 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12.07.2023 09:13:34.376 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 09:13:34.377 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 09:13:34.379 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 09:13:34.380 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 09:13:34.411 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 09:13:34.412 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 09:13:34.418 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 09:13:34.418 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 09:13:34.425 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 09:13:34.425 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 09:13:34.431 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Started LatifFirstSpringBotApplication in 8.268 seconds (process running for 9.66)
+12.07.2023 09:15:13.341 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 09:15:13.347 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 09:15:13.366 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 10:07:41.131 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 3344 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 10:07:41.135 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 10:07:42.814 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 10:07:42.994 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 154 ms. Found 1 JPA repository interfaces.
+12.07.2023 10:07:44.604 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 10:07:44.627 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 10:07:44.628 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 10:07:44.842 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 10:07:44.843 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3625 ms
+12.07.2023 10:07:45.272 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 10:07:45.499 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 10:07:45.512 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 10:07:45.814 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 10:07:46.120 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 10:07:46.172 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 10:07:47.242 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35e689a0
+12.07.2023 10:07:47.247 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 10:07:47.410 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 10:07:48.031 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 10:07:49.749 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 10:07:49.990 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 10:07:51.824 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 10:07:52.143 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12.07.2023 10:07:53.432 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12.07.2023 10:07:53.463 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 10:07:53.464 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 10:07:53.470 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 10:07:53.470 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 10:07:53.509 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 10:07:53.509 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 10:07:53.515 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 10:07:53.515 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 10:07:53.524 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 10:07:53.525 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 10:07:53.530 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Started LatifFirstSpringBotApplication in 13.236 seconds (process running for 15.116)
+12.07.2023 10:08:26.207 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:08:26.304 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:08:26.408 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:08:26.510 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:08:26.600 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:09:06.696 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - user saved User(chatId=5100940292, forename=Λατίφους, surname=Саит, userName=Sailatif, registeredAT=2023-07-12T10:09:06.583820500)
+12.07.2023 10:09:06.903 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - Replied to user: Λατίφους
+12.07.2023 10:09:16.118 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:09:16.375 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:09:16.690 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:09:16.722 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:09:16.788 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:09:16.888 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:10:37.332 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:10:37.411 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:10:37.510 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:10:37.787 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:10:37.989 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:10:38.196 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:14:31.984 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 10:14:31.988 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 10:14:32.002 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 10:14:46.975 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 6340 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 10:14:46.978 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 10:14:48.255 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 10:14:48.433 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 155 ms. Found 1 JPA repository interfaces.
+12.07.2023 10:14:50.112 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 10:14:50.125 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 10:14:50.126 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 10:14:50.325 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 10:14:50.326 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3274 ms
+12.07.2023 10:14:50.648 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 10:14:50.724 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 10:14:50.727 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 10:14:50.972 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 10:14:51.253 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 10:14:51.281 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 10:14:52.056 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c50cd7d
+12.07.2023 10:14:52.061 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 10:14:52.155 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 10:14:52.539 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 10:14:53.325 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 10:14:53.432 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 10:14:55.212 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 10:14:55.403 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12.07.2023 10:14:56.403 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12.07.2023 10:14:56.424 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 10:14:56.425 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 10:14:56.428 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 10:14:56.429 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 10:14:56.460 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 10:14:56.460 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 10:14:56.466 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 10:14:56.467 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 10:14:56.475 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 10:14:56.475 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 10:14:56.482 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Started LatifFirstSpringBotApplication in 10.155 seconds (process running for 13.239)
+12.07.2023 10:15:12.296 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - user saved User(chatId=5100940292, forename=Λατίφους, surname=Саит, userName=Sailatif, registeredAT=2023-07-12T10:15:12.154068900)
+12.07.2023 10:15:12.489 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - Replied to user: Λατίφους
+12.07.2023 10:15:23.782 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:15:23.824 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:15:23.902 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:15:23.995 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:15:24.096 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:15:24.200 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:15:24.306 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 10:24:05.095 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 10:24:05.102 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 10:24:05.126 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 10:24:10.436 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 11448 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 10:24:10.439 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 10:24:11.498 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 10:24:11.619 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interfaces.
+12.07.2023 10:24:13.009 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 10:24:13.027 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 10:24:13.028 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 10:24:13.215 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 10:24:13.215 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2700 ms
+12.07.2023 10:24:13.503 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 10:24:13.592 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 10:24:13.596 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 10:24:13.835 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 10:24:14.006 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 10:24:14.026 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 10:24:14.530 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69499c6f
+12.07.2023 10:24:14.535 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 10:24:14.664 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 10:24:14.975 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 10:24:16.012 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 10:24:16.173 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 10:24:17.254 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 10:24:17.339 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12.07.2023 10:24:17.907 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12.07.2023 10:24:17.920 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 10:24:17.921 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 10:24:17.923 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 10:24:17.923 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 10:24:17.952 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 10:24:17.953 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 10:24:17.958 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 10:24:17.958 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 10:24:17.964 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 10:24:17.965 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 10:24:17.970 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Started LatifFirstSpringBotApplication in 8.125 seconds (process running for 9.51)
+12.07.2023 10:24:23.708 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - user saved User(chatId=5100940292, forename=Λατίφους, surname=Саит, userName=Sailatif, registeredAT=2023-07-12T10:24:23.531738500)
+12.07.2023 10:24:23.817 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - Replied to user: Λατίφους
+12.07.2023 10:24:45.453 [LatifFirstBot Telegram Executor] ERROR i.p.L.s.TelegramBot - Error occurred: Error sending message: [400] Bad Request: chat not found
+12.07.2023 13:28:14.987 [LatifFirstBot Telegram Connection] ERROR o.t.t.u.DefaultBotSession - Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:313)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1025)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:477)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1461)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1066)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+12.07.2023 13:28:15.623 [LatifFirstBot Telegram Connection] ERROR o.t.t.u.DefaultBotSession - Этот хост неизвестен (api.telegram.org)
+java.net.UnknownHostException: Этот хост неизвестен (api.telegram.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1061)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1683)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1004)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1673)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1533)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+12.07.2023 14:34:07.368 [HikariPool-1 housekeeper] WARN  c.z.h.p.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h7m27s199ms73µs600ns).
+12.07.2023 15:54:42.867 [HikariPool-1 housekeeper] WARN  c.z.h.p.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m4s608ms70µs600ns).
+12.07.2023 15:57:03.165 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 15:57:03.248 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 15:57:03.272 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 16:12:46.107 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 20980 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 16:12:46.109 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 16:12:46.699 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 16:12:46.753 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+12.07.2023 16:12:47.365 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 16:12:47.376 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 16:12:47.377 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 16:12:47.462 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 16:12:47.463 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1317 ms
+12.07.2023 16:12:47.645 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 16:12:47.717 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 16:12:47.720 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 16:12:47.856 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 16:12:48.006 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 16:12:48.025 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 16:12:48.441 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@83ebdc5
+12.07.2023 16:12:48.442 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 16:12:48.498 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 16:12:48.732 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 16:12:49.352 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 16:12:49.463 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 16:12:50.567 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 16:12:50.669 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12.07.2023 16:12:51.167 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12.07.2023 16:12:51.177 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 16:12:51.178 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 16:12:51.180 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 16:12:51.180 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 16:12:51.318 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 16:12:51.319 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 16:12:51.325 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 16:12:51.327 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 16:12:51.337 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 16:12:51.337 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 16:12:51.339 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Started LatifFirstSpringBotApplication in 5.618 seconds (process running for 6.582)
+12.07.2023 16:13:04.033 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - user saved User(chatId=5100940292, forename=Λατίφους, surname=Саит, userName=Sailatif, registeredAT=2023-07-12T16:13:03.969471100)
+12.07.2023 16:13:04.106 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - Replied to user: Λατίφους
+12.07.2023 16:13:52.252 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 16:13:52.255 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 16:13:52.262 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 16:13:58.508 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 22296 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 16:13:58.510 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 16:13:59.035 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 16:13:59.082 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+12.07.2023 16:13:59.714 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 16:13:59.728 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 16:13:59.728 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 16:13:59.819 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 16:13:59.820 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1271 ms
+12.07.2023 16:13:59.983 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 16:14:00.063 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 16:14:00.066 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 16:14:00.187 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 16:14:00.342 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 16:14:00.361 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 16:14:00.766 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7645b7d
+12.07.2023 16:14:00.767 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 16:14:00.838 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 16:14:01.052 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 16:14:01.661 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 16:14:01.732 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 16:14:02.839 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 16:14:02.914 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12.07.2023 16:14:03.372 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12.07.2023 16:14:03.383 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 16:14:03.384 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 16:14:03.385 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 16:14:03.386 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 16:14:03.511 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 16:14:03.511 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 16:14:03.518 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 16:14:03.519 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 16:14:03.527 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 16:14:03.528 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 16:14:03.531 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Started LatifFirstSpringBotApplication in 5.379 seconds (process running for 6.391)
+12.07.2023 16:14:09.588 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - user saved User(chatId=5100940292, forename=Λατίφους, surname=Саит, userName=Sailatif, registeredAT=2023-07-12T16:14:09.527402200)
+12.07.2023 16:14:09.638 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - Replied to user: Λατίφους
+12.07.2023 16:14:34.511 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 16:14:34.513 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 16:14:34.519 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 16:14:54.086 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 11496 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 16:14:54.088 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 16:14:54.600 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 16:14:54.646 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+12.07.2023 16:14:55.209 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 16:14:55.220 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 16:14:55.220 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 16:14:55.299 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 16:14:55.300 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1169 ms
+12.07.2023 16:14:55.432 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 16:14:55.502 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 16:14:55.503 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 16:14:55.624 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 16:14:55.765 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 16:14:55.780 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 16:14:56.045 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b8d20e6
+12.07.2023 16:14:56.047 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 16:14:56.085 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 16:14:56.238 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 16:14:56.804 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 16:14:56.886 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 16:14:57.809 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 16:14:57.880 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12.07.2023 16:14:58.348 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12.07.2023 16:14:58.357 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 16:14:58.357 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 16:14:58.358 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 16:14:58.359 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 16:14:58.489 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 16:14:58.490 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 16:14:58.497 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 16:14:58.498 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 16:14:58.506 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 16:14:58.506 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 16:14:58.509 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Started LatifFirstSpringBotApplication in 4.76 seconds (process running for 5.504)
+12.07.2023 16:15:04.075 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - user saved User(chatId=5100940292, forename=Λατίφους, surname=Саит, userName=Sailatif, registeredAT=2023-07-12T16:15:04.008560)
+12.07.2023 16:15:04.174 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - Replied to user: Λατίφους
+12.07.2023 16:15:38.037 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - Replied to user: Λατίφους
+12.07.2023 16:18:25.330 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 16:18:25.332 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 16:18:25.337 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 16:32:18.596 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 14812 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 16:32:18.599 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 16:32:19.310 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 16:32:19.371 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+12.07.2023 16:32:20.062 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 16:32:20.084 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 16:32:20.084 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 16:32:20.165 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 16:32:20.167 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1521 ms
+12.07.2023 16:32:20.345 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 16:32:20.420 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 16:32:20.422 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 16:32:20.560 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 16:32:20.737 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 16:32:20.760 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 16:32:21.221 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c08c787
+12.07.2023 16:32:21.223 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 16:32:21.270 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 16:32:21.495 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 16:32:22.175 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 16:32:22.275 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 16:32:23.467 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 16:32:23.550 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12.07.2023 16:32:24.041 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12.07.2023 16:32:24.050 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 16:32:24.051 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 16:32:24.052 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 16:32:24.053 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 16:32:24.159 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 16:32:24.159 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 16:32:24.162 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 16:32:24.162 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 16:32:24.165 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 16:32:24.165 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 16:32:24.166 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Started LatifFirstSpringBotApplication in 5.937 seconds (process running for 6.858)
+12.07.2023 16:32:28.092 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - Replied to user: Λατίφους
+12.07.2023 16:33:12.745 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 16:33:12.747 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 16:33:12.753 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 16:43:12.093 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 22152 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 16:43:12.094 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 16:43:12.741 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 16:43:12.808 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+12.07.2023 16:43:13.463 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 16:43:13.476 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 16:43:13.477 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 16:43:13.570 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 16:43:13.570 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1432 ms
+12.07.2023 16:43:13.741 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 16:43:13.823 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 16:43:13.830 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 16:43:13.985 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 16:43:14.123 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 16:43:14.139 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 16:43:14.555 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b8d20e6
+12.07.2023 16:43:14.557 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 16:43:14.620 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 16:43:14.846 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 16:43:15.503 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 16:43:15.573 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 16:43:16.925 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 16:43:16.998 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12.07.2023 16:43:17.496 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12.07.2023 16:43:17.506 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 16:43:17.507 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 16:43:17.508 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 16:43:17.509 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 16:43:17.646 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 16:43:17.647 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 16:43:17.654 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 16:43:17.654 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 16:43:17.664 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 16:43:17.665 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 16:43:17.668 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Started LatifFirstSpringBotApplication in 5.958 seconds (process running for 6.828)
+12.07.2023 17:06:56.860 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 17:06:56.887 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 17:06:56.942 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 17:16:14.939 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 6300 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 17:16:14.943 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 17:16:16.081 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 17:16:16.196 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100 ms. Found 2 JPA repository interfaces.
+12.07.2023 17:16:17.762 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 17:16:17.783 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 17:16:17.783 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 17:16:17.986 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 17:16:17.987 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2972 ms
+12.07.2023 17:16:18.384 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 17:16:18.526 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 17:16:18.529 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 17:16:18.797 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 17:16:19.138 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 17:16:19.228 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 17:16:20.345 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c011855
+12.07.2023 17:16:20.358 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 17:16:20.453 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 17:16:20.918 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 17:16:22.196 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 17:16:22.522 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 17:16:24.617 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 17:16:24.685 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botInitializer' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\config\BotInitializer.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'telegramBot' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\service\TelegramBot.class]: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+12.07.2023 17:16:24.685 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 17:16:24.689 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 17:16:24.703 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 17:16:24.707 [main] INFO  o.a.c.c.StandardService - Stopping service [Tomcat]
+12.07.2023 17:16:24.730 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+12.07.2023 17:16:24.768 [main] ERROR o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botInitializer' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\config\BotInitializer.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'telegramBot' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\service\TelegramBot.class]: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at io.proj3ct.LatifFirstSpringBot.LatifFirstSpringBotApplication.main(LatifFirstSpringBotApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'telegramBot' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\service\TelegramBot.class]: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+	at org.springframework.aop.support.AopUtils.selectInvocableMethod(AopUtils.java:138)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.createRunnable(ScheduledAnnotationBeanPostProcessor.java:530)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:396)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$1(ScheduledAnnotationBeanPostProcessor.java:377)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:377)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:729)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1773)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	... 29 common frames omitted
+12.07.2023 17:17:10.407 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 20556 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 17:17:10.410 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 17:17:11.556 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 17:17:11.652 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82 ms. Found 2 JPA repository interfaces.
+12.07.2023 17:17:12.775 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 17:17:12.793 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 17:17:12.793 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 17:17:12.924 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 17:17:12.925 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2423 ms
+12.07.2023 17:17:13.238 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 17:17:13.322 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 17:17:13.325 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 17:17:13.544 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 17:17:13.722 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 17:17:13.736 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 17:17:14.292 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7769d9b6
+12.07.2023 17:17:14.296 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 17:17:14.403 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 17:17:14.651 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 17:17:15.508 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 17:17:15.635 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 17:17:17.243 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 17:17:17.318 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botInitializer' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\config\BotInitializer.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'telegramBot' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\service\TelegramBot.class]: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+12.07.2023 17:17:17.319 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 17:17:17.322 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 17:17:17.338 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 17:17:17.341 [main] INFO  o.a.c.c.StandardService - Stopping service [Tomcat]
+12.07.2023 17:17:17.368 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+12.07.2023 17:17:17.403 [main] ERROR o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botInitializer' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\config\BotInitializer.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'telegramBot' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\service\TelegramBot.class]: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at io.proj3ct.LatifFirstSpringBot.LatifFirstSpringBotApplication.main(LatifFirstSpringBotApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'telegramBot' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\service\TelegramBot.class]: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+	at org.springframework.aop.support.AopUtils.selectInvocableMethod(AopUtils.java:138)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.createRunnable(ScheduledAnnotationBeanPostProcessor.java:530)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:396)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$1(ScheduledAnnotationBeanPostProcessor.java:377)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:377)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:729)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1773)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	... 29 common frames omitted
+12.07.2023 17:18:41.033 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 9284 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 17:18:41.036 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 17:18:41.984 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 17:18:42.064 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+12.07.2023 17:18:43.240 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 17:18:43.258 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 17:18:43.258 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 17:18:43.469 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 17:18:43.470 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2363 ms
+12.07.2023 17:18:43.729 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 17:18:43.822 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 17:18:43.825 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 17:18:44.016 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 17:18:44.189 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 17:18:44.210 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 17:18:44.769 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e1ba142
+12.07.2023 17:18:44.773 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 17:18:44.868 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 17:18:45.169 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 17:18:46.328 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 17:18:46.436 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 17:18:48.187 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 17:18:48.227 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botInitializer' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\config\BotInitializer.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'telegramBot' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\service\TelegramBot.class]: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+12.07.2023 17:18:48.228 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 17:18:48.230 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 17:18:48.242 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 17:18:48.245 [main] INFO  o.a.c.c.StandardService - Stopping service [Tomcat]
+12.07.2023 17:18:48.267 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+12.07.2023 17:18:48.310 [main] ERROR o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botInitializer' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\config\BotInitializer.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'telegramBot' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\service\TelegramBot.class]: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at io.proj3ct.LatifFirstSpringBot.LatifFirstSpringBotApplication.main(LatifFirstSpringBotApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'telegramBot' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\service\TelegramBot.class]: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+	at org.springframework.aop.support.AopUtils.selectInvocableMethod(AopUtils.java:138)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.createRunnable(ScheduledAnnotationBeanPostProcessor.java:530)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:396)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$1(ScheduledAnnotationBeanPostProcessor.java:377)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:377)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:729)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1773)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	... 29 common frames omitted
+12.07.2023 17:21:41.377 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 21248 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 17:21:41.379 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 17:21:42.417 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 17:21:42.535 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 103 ms. Found 2 JPA repository interfaces.
+12.07.2023 17:21:43.663 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 17:21:43.681 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 17:21:43.681 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 17:21:43.835 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 17:21:43.835 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2387 ms
+12.07.2023 17:21:44.074 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 17:21:44.174 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 17:21:44.177 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 17:21:44.361 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 17:21:44.596 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 17:21:44.628 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 17:21:45.200 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d132bb6
+12.07.2023 17:21:45.204 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 17:21:45.301 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 17:21:45.718 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 17:21:46.813 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 17:21:46.943 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 17:21:48.763 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 17:21:48.798 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botInitializer' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\config\BotInitializer.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'telegramBot' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\service\TelegramBot.class]: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+12.07.2023 17:21:48.799 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 17:21:48.800 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 17:21:48.806 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 17:21:48.806 [main] INFO  o.a.c.c.StandardService - Stopping service [Tomcat]
+12.07.2023 17:21:48.817 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+12.07.2023 17:21:48.831 [main] ERROR o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botInitializer' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\config\BotInitializer.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'telegramBot' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\service\TelegramBot.class]: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at io.proj3ct.LatifFirstSpringBot.LatifFirstSpringBotApplication.main(LatifFirstSpringBotApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'telegramBot' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\service\TelegramBot.class]: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+	at org.springframework.aop.support.AopUtils.selectInvocableMethod(AopUtils.java:138)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.createRunnable(ScheduledAnnotationBeanPostProcessor.java:530)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:396)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$1(ScheduledAnnotationBeanPostProcessor.java:377)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:377)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:729)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1773)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	... 29 common frames omitted
+12.07.2023 17:26:56.610 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 8532 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 17:26:56.613 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 17:26:57.907 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 17:26:58.021 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 99 ms. Found 2 JPA repository interfaces.
+12.07.2023 17:26:59.173 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 17:26:59.191 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 17:26:59.193 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 17:26:59.435 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 17:26:59.435 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2729 ms
+12.07.2023 17:26:59.715 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 17:26:59.822 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 17:26:59.824 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 17:27:00.053 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 17:27:00.217 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 17:27:00.234 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 17:27:00.729 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7aa3857b
+12.07.2023 17:27:00.733 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 17:27:00.803 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 17:27:01.020 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 17:27:01.927 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 17:27:02.054 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 17:27:04.873 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 17:27:04.986 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botInitializer' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\config\BotInitializer.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'telegramBot' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\service\TelegramBot.class]: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+12.07.2023 17:27:04.987 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 17:27:04.992 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 17:27:05.010 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+12.07.2023 17:27:05.013 [main] INFO  o.a.c.c.StandardService - Stopping service [Tomcat]
+12.07.2023 17:27:05.051 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+12.07.2023 17:27:05.092 [main] ERROR o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'botInitializer' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\config\BotInitializer.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'telegramBot' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\service\TelegramBot.class]: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at io.proj3ct.LatifFirstSpringBot.LatifFirstSpringBotApplication.main(LatifFirstSpringBotApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'telegramBot' defined in file [D:\IdeaProjects\LatifFirstSpringBot\target\classes\io\proj3ct\LatifFirstSpringBot\service\TelegramBot.class]: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: Need to invoke method 'sendAds' found on proxy for target class 'TelegramBot' but cannot be delegated to target bean. Switch its visibility to package or protected.
+	at org.springframework.aop.support.AopUtils.selectInvocableMethod(AopUtils.java:138)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.createRunnable(ScheduledAnnotationBeanPostProcessor.java:530)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:396)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$1(ScheduledAnnotationBeanPostProcessor.java:377)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:377)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:729)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1773)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	... 29 common frames omitted
+12.07.2023 17:29:15.806 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Starting LatifFirstSpringBotApplication using Java 20.0.1 with PID 14880 (D:\IdeaProjects\LatifFirstSpringBot\target\classes started by User in D:\IdeaProjects\LatifFirstSpringBot)
+12.07.2023 17:29:15.809 [main] INFO  i.p.L.LatifFirstSpringBotApplication - No active profile set, falling back to 1 default profile: "default"
+12.07.2023 17:29:16.857 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12.07.2023 17:29:16.972 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 99 ms. Found 2 JPA repository interfaces.
+12.07.2023 17:29:18.135 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12.07.2023 17:29:18.147 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+12.07.2023 17:29:18.148 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.10]
+12.07.2023 17:29:18.368 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+12.07.2023 17:29:18.369 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2489 ms
+12.07.2023 17:29:18.675 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12.07.2023 17:29:18.799 [main] INFO  o.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.5.Final
+12.07.2023 17:29:18.803 [main] INFO  o.h.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12.07.2023 17:29:19.052 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 17:29:19.239 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12.07.2023 17:29:19.274 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+12.07.2023 17:29:19.822 [main] INFO  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3caf5c96
+12.07.2023 17:29:19.826 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+12.07.2023 17:29:19.920 [main] WARN  o.h.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+12.07.2023 17:29:20.302 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12.07.2023 17:29:21.436 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12.07.2023 17:29:21.600 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 17:29:23.284 [main] INFO  o.s.a.f.CglibAopProxy - Unable to proxy interface-implementing method [public final org.telegram.telegrambots.bots.DefaultBotOptions org.telegram.telegrambots.bots.DefaultAbsSender.getOptions()] because it is marked as final: Consider using interface-based JDK proxies instead!
+12.07.2023 17:29:23.449 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12.07.2023 17:29:24.532 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12.07.2023 17:29:24.558 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 17:29:24.559 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 17:29:24.563 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 17:29:24.564 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 17:29:24.717 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotToken
+12.07.2023 17:29:24.718 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: 6394428886:AAFTbMYhylKKIXdqQwlAcgZM_yoGU1LymV0
+END OF REQUEST
+12.07.2023 17:29:24.726 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 17:29:24.726 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 17:29:24.737 [main] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.getBotUsername
+12.07.2023 17:29:24.738 [main] INFO  i.p.L.a.LoggingAspect - 
+Return value: LatifFirstBot
+END OF REQUEST
+12.07.2023 17:29:24.742 [main] INFO  i.p.L.LatifFirstSpringBotApplication - Started LatifFirstSpringBotApplication in 9.569 seconds (process running for 11.059)
+12.07.2023 17:29:39.401 [LatifFirstBot Telegram Executor] INFO  i.p.L.s.TelegramBot - Replied to user: Λατίφους
+12.07.2023 17:30:00.001 [scheduling-1] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.sendAds
+12.07.2023 17:30:00.557 [scheduling-1] INFO  i.p.L.a.LoggingAspect - 
+Return value: null
+END OF REQUEST
+12.07.2023 17:31:00.011 [scheduling-1] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.sendAds
+12.07.2023 17:31:00.967 [scheduling-1] INFO  i.p.L.a.LoggingAspect - 
+Return value: null
+END OF REQUEST
+12.07.2023 17:32:00.004 [scheduling-1] INFO  i.p.L.a.LoggingAspect - RUN SERVICE:
+SERVICE_METHOD : io.proj3ct.LatifFirstSpringBot.service.TelegramBot.sendAds
+12.07.2023 17:32:00.363 [scheduling-1] INFO  i.p.L.a.LoggingAspect - 
+Return value: null
+END OF REQUEST
+12.07.2023 17:32:14.005 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12.07.2023 17:32:14.010 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12.07.2023 17:32:14.032 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
